@@ -27,7 +27,7 @@
       <a href="https://why-code.com"><img src="assets/why-code.png" alt="why-code.com 메인 화면"></a>
       <h3><a href="https://why-code.com">whycode</a></h3>
       <p>분산된 협업 데이터를 수집해 데이터 간 의미적 관계를 명시하는 지식 그래프를 구축하고, GraphRAG 기반 AI 추론 엔진으로 사용자의 자연어 질의에 코드 변경의 맥락과 의사결정 배경을 자동으로 설명하는 서비스</p>
-      <p><sub>2026.03 ~ 진행 중 · 2인 팀 (캡스톤디자인)<br><b>수집 파이프라인 · PR 리뷰 봇 담당</b></sub></p>
+      <p><sub>2026.03 ~ 진행 중 · 2인 팀 (캡스톤디자인)<br><b>수집 파이프라인 담당</b></sub></p>
       <ul>
         <li>GitHub 수집 약 10분 → <b>2분 42초</b></li>
         <li>초기 수집 약 54분 → <b>30분</b> (커밋당 7.3초 → 3.5초)</li>
