@@ -31,7 +31,7 @@
       <ul>
         <li>한도 기반 대기 · 상세 조회 병렬화로 GitHub 데이터 조회 단계 약 10분 → <b>2분 42초</b></li>
         <li>순서를 지키며 LLM 대기만 병렬화해 첫 연결 후 그래프 완성까지 약 54분 → <b>30분</b> (커밋당 7.3초 → 3.5초)</li>
-        <li>LLM 호출을 비동기로 바꾸고 한도를 응답 헤더로 읽어 커밋당 3.5초 → <b>0.58초</b>, 429 <b>0건</b></li>
+        <li>LLM 호출을 비동기로 바꾸고 한도를 응답 헤더로 읽어, 한도 초과 없이 커밋당 3.5초 → <b>0.58초</b></li>
         <li>PR 리뷰 봇 도입, 머지 전 고칠 문제 <b>33건</b> 지적</li>
       </ul>
       <p><sub><code>Spring Boot</code> <code>FastAPI</code> <code>RabbitMQ</code> <code>Neo4j</code> <code>PostgreSQL</code></sub></p>
